@@ -12,10 +12,10 @@ Quick Project description:
 Repository contains project files for the Lattice Diamond project. Created for the Lattice MachX03LF FPGA starter kit. FPGA: LCMXO3L-6900C-6BG256I
 
 Pictures of working project:
-https://photos.app.goo.gl/RVkm7j4k5ai6dnmD8 (Clock out wired to clock in with the solid colored wire. Data out wired to data in with stiped wire. Left-most button is pressed = Left-most LED turns on)
-https://photos.app.goo.gl/L63SGGejSKxraPvV8 (Side view: Left-most button is pressed = Left-most LED turns on)
-https://photos.app.goo.gl/qdQpCx7js85w6XPD9 (1st and 4th button is pressed = 1st and 4th LED turns on)
-https://photos.app.goo.gl/b6ora8MoBVKvffPD8 (Clock and Data wires not wired correctly = 5th-8th LEDS blinking rapidly counting bit errors)
+https://photos.app.goo.gl/RVkm7j4k5ai6dnmD8 (Clock out wired to clock in with the solid colored wire. Data out wired to data in with stiped wire. Left-most button is pressed = Left-most LED turns on).
+https://photos.app.goo.gl/L63SGGejSKxraPvV8 (Side view: Left-most button is pressed = Left-most LED turns on).
+https://photos.app.goo.gl/qdQpCx7js85w6XPD9 (1st and 4th button is pressed = 1st and 4th LED turns on).
+https://photos.app.goo.gl/b6ora8MoBVKvffPD8 (Clock and Data wires not wired correctly = 5th-8th LEDS blinking rapidly counting bit errors).
 
 Important files:
 top.v - Verilog file defining all modules.

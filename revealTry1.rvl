@@ -1,0 +1,50 @@
+<Project ModBy="Inserter" SigType="0" Name="D:/lscc/fpga_projects/SERDESish/revealTry1.rvl" Date="2019-03-23">
+    <IP Version="1_6_042617"/>
+    <Design DesignEntry="Schematic/Verilog HDL" Synthesis="lse" DeviceFamily="MachXO3LF" DesignName="SERDESish"/>
+    <Core InsertDataset="0" Insert="1" Reveal_sig="216995462" Name="core_LA0" ID="0">
+        <Setting>
+            <Clock SampleClk="osc_clk" SampleEnable="0" EnableClk="" EnableClk_Pri="0"/>
+            <TraceBuffer Implementation="0" BitTimeStamp="0" hasTimeStamp="0" IncTrigSig="0" BufferDepth="256"/>
+            <Capture Mode="0" MinSamplesPerTrig="8"/>
+            <Event CntEnable="0" MaxEventCnt="8"/>
+            <TrigOut Polarity="0" MinPulseWidth="0" TrigOutNetType="1" EnableTrigOut="0" TrigOutNet="reveal_debug_core_LA0_net"/>
+            <DistRAM Disable="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Bus Name="buttons">
+                    <Sig Type="SIG" Name="buttons:0"/>
+                    <Sig Type="SIG" Name="buttons:1"/>
+                    <Sig Type="SIG" Name="buttons:2"/>
+                    <Sig Type="SIG" Name="buttons:3"/>
+                </Bus>
+                <Sig Type="SIG" Name="clkin"/>
+                <Sig Type="SIG" Name="clkout"/>
+                <Bus Name="data_received">
+                    <Sig Type="SIG" Name="data_received:0"/>
+                    <Sig Type="SIG" Name="data_received:1"/>
+                    <Sig Type="SIG" Name="data_received:2"/>
+                    <Sig Type="SIG" Name="data_received:3"/>
+                </Bus>
+                <Sig Type="SIG" Name="datain"/>
+                <Sig Type="SIG" Name="dataout"/>
+                <Bus Name="leds_data">
+                    <Sig Type="SIG" Name="leds_data:0"/>
+                    <Sig Type="SIG" Name="leds_data:1"/>
+                    <Sig Type="SIG" Name="leds_data:2"/>
+                    <Sig Type="SIG" Name="leds_data:3"/>
+                </Bus>
+                <Bus Name="leds_errors">
+                    <Sig Type="SIG" Name="leds_errors:0"/>
+                    <Sig Type="SIG" Name="leds_errors:1"/>
+                    <Sig Type="SIG" Name="leds_errors:2"/>
+                    <Sig Type="SIG" Name="leds_errors:3"/>
+                </Bus>
+            </Trace>
+            <Trigger>
+                <TU Serialbits="0" Type="0" ID="1" Sig="buttons:0,"/>
+                <TE MaxSequence="1" MaxEvnCnt="1" ID="1" Resource="1"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+</Project>

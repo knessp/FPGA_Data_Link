@@ -1,0 +1,73 @@
+<!DOCTYPE ispTLA>
+<ispTLA>
+ <CreationDate>Sat Mar 23 17:19:37 2019</CreationDate>
+ <XCFFileName/>
+ <CableSetting>
+  <IsTRSTConnected val="false"/>
+  <TRSTSetting val="0"/>
+  <IsBSCANConnected val="false"/>
+  <BSCANSetting val="0"/>
+  <CableType val="USB2"/>
+  <PortAddress val="0"/>
+  <PortSetting val="0"/>
+  <TCKDelay val="1"/>
+ </CableSetting>
+ <DeviceCount>1</DeviceCount>
+ <Device>
+  <DeviceIndex>0</DeviceIndex>
+  <DeviceName>1. LCMXO3LF-6900C</DeviceName>
+  <DeviceID>0x612BD043</DeviceID>
+  <HasIspTRACY>true</HasIspTRACY>
+  <HasJTAG2WB>false</HasJTAG2WB>
+  <SERDES/>
+  <IRBypassLen>8</IRBypassLen>
+  <RVLFileName>revealTry1.rvl</RVLFileName>
+  <RVSFileName>revealTry1.rvs</RVSFileName>
+  <LACoreCount>1</LACoreCount>
+  <WinUI CoreIndex="0">
+   <TraceSigTreeData>
+    <TraceSignal IsHidden="false" Name="buttons" NodeType="1" PortIndex="0">
+     <BusRadix Radix="0"/>
+     <IsExpanded Expand="true"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="buttons:0" NodeType="2" PortIndex="0"/>
+    <TraceSignal IsHidden="false" Name="buttons:1" NodeType="2" PortIndex="1"/>
+    <TraceSignal IsHidden="false" Name="buttons:2" NodeType="2" PortIndex="2"/>
+    <TraceSignal IsHidden="false" Name="buttons:3" NodeType="2" PortIndex="3"/>
+    <TraceSignal IsHidden="false" Name="clkin" NodeType="0" PortIndex="4"/>
+    <TraceSignal IsHidden="false" Name="clkout" NodeType="0" PortIndex="5"/>
+    <TraceSignal IsHidden="false" Name="data_received" NodeType="1" PortIndex="6">
+     <BusRadix Radix="0"/>
+     <IsExpanded Expand="true"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="data_received:0" NodeType="2" PortIndex="6"/>
+    <TraceSignal IsHidden="false" Name="data_received:1" NodeType="2" PortIndex="7"/>
+    <TraceSignal IsHidden="false" Name="data_received:2" NodeType="2" PortIndex="8"/>
+    <TraceSignal IsHidden="false" Name="data_received:3" NodeType="2" PortIndex="9"/>
+    <TraceSignal IsHidden="false" Name="datain" NodeType="0" PortIndex="10"/>
+    <TraceSignal IsHidden="false" Name="dataout" NodeType="0" PortIndex="11"/>
+    <TraceSignal IsHidden="false" Name="leds_data" NodeType="1" PortIndex="12">
+     <BusRadix Radix="0"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="leds_data:0" NodeType="2" PortIndex="12"/>
+    <TraceSignal IsHidden="false" Name="leds_data:1" NodeType="2" PortIndex="13"/>
+    <TraceSignal IsHidden="false" Name="leds_data:2" NodeType="2" PortIndex="14"/>
+    <TraceSignal IsHidden="false" Name="leds_data:3" NodeType="2" PortIndex="15"/>
+    <TraceSignal IsHidden="false" Name="leds_errors" NodeType="1" PortIndex="16">
+     <BusRadix Radix="0"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="leds_errors:0" NodeType="2" PortIndex="16"/>
+    <TraceSignal IsHidden="false" Name="leds_errors:1" NodeType="2" PortIndex="17"/>
+    <TraceSignal IsHidden="false" Name="leds_errors:2" NodeType="2" PortIndex="18"/>
+    <TraceSignal IsHidden="false" Name="leds_errors:3" NodeType="2" PortIndex="19"/>
+   </TraceSigTreeData>
+   <TriggerUI UserSelect="1" PreSelectType="0" PreSelect="0" UserSelectPos="107"/>
+   <CoreRun Run="true"/>
+   <CoreWndUIData>
+    <ClockFrequency Unit="ns" Frequency="-1.0"/>
+   </CoreWndUIData>
+  </WinUI>
+ </Device>
+</ispTLA>

@@ -1,0 +1,45 @@
+<Project ModBy="Analyzer" Name="D:/lscc/fpga_projects/SERDESish/revealTry1.rvs" Date="2019-03-24">
+ <Core Name="core_LA0">
+  <Setting>
+   <Capture SamplesPerTrig="256" NumTrigsCap="1"/>
+   <Event EventCnt="0" CntEnableRun="0"/>
+   <TrigSetting PreTrgSamples="" AND_ALL="0" PostTrgSamples="" TURadix="0"/>
+  </Setting>
+  <Dataset Name="Base">
+   <Trace>
+    <Bus Name="buttons" Radix="0">
+     <Sig Name="buttons:0"/>
+     <Sig Name="buttons:1"/>
+     <Sig Name="buttons:2"/>
+     <Sig Name="buttons:3"/>
+    </Bus>
+    <Sig Name="clkin"/>
+    <Sig Name="clkout"/>
+    <Bus Name="data_received" Radix="0">
+     <Sig Name="data_received:0"/>
+     <Sig Name="data_received:1"/>
+     <Sig Name="data_received:2"/>
+     <Sig Name="data_received:3"/>
+    </Bus>
+    <Sig Name="datain"/>
+    <Sig Name="dataout"/>
+    <Bus Name="leds_data" Radix="0">
+     <Sig Name="leds_data:0"/>
+     <Sig Name="leds_data:1"/>
+     <Sig Name="leds_data:2"/>
+     <Sig Name="leds_data:3"/>
+    </Bus>
+    <Bus Name="leds_errors" Radix="0">
+     <Sig Name="leds_errors:0"/>
+     <Sig Name="leds_errors:1"/>
+     <Sig Name="leds_errors:2"/>
+     <Sig Name="leds_errors:3"/>
+    </Bus>
+   </Trace>
+   <Trigger>
+    <TU Operator="6" Name="TU1" ID="1" Value="1" Radix="0"/>
+    <TE Enable="1" Expression="TU1" Name="TE1" ID="1"/>
+   </Trigger>
+  </Dataset>
+ </Core>
+</Project>
